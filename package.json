@@ -33,7 +33,6 @@
     "run-sequence": "^1.0.2"
   },
   "scripts": {
-    "postinstall": "./node_modules/.bin/bower install",
     "release": "./node_modules/.bin/gulp build -t full && ./node_modules/.bin/gulp build -t lite",
     "release-eurozone19": "./node_modules/.bin/gulp countrybuild -c at,be,cy,ee,fi,fr,de,gr,ie,it,lv,lt,lu,mt,nl,pt,sk,si,es -p eurozone19",
     "release-schengen26": "./node_modules/.bin/gulp countrybuild -c at,be,cz,dk,ee,fi,fr,de,gr,hu,is,it,lv,li,lt,lu,mt,nl,no,pl,pt,sk,si,es,se,ch -p schengen26",
